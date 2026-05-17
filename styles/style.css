@@ -1,0 +1,74 @@
+body {
+  background-color: #27847c;
+  padding: 8rem;
+}
+
+/*.list-group-item{
+    background-color: transparent;
+}*/
+
+a {
+  color: white; 
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+ul li {
+  list-style-type: none;
+}
+.products-container {
+  gap: 1rem;
+}
+
+.card {
+  /*background-color: #ffffff44;*/
+  width: 18rem;
+}
+
+/* SPINNER */
+/* HTML: <div class="loader"></div> */
+
+.loader {
+  width: 35px;
+  aspect-ratio: 1;
+  --_g: no-repeat radial-gradient(farthest-side, #ffffff 94%, #0000);
+  background:
+    var(--_g) 0 0,
+    var(--_g) 100% 0,
+    var(--_g) 100% 100%,
+    var(--_g) 0 100%;
+  background-size: 40% 40%;
+  animation: l38 0.5s infinite;
+}
+@keyframes l38 {
+  100% {
+    background-position:
+      100% 0,
+      100% 100%,
+      0 100%,
+      0 0;
+  }
+}
+
+.card-link {
+  color:lightblue;
+}
+
+/* SIGN UP */
+
+.form-group{
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+label {
+  padding-bottom: .5em;
+  font-weight: 500;
+  color:white;
+  font-size: 1.1em;
+}
+

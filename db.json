@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "username": "r.gschez@gmail.com",
+      "password": "$2b$10$uhzOta.L7SD/ZXL4BzzvDu634uA4RLAo/XOnz5tSVpupnhN6dWM/m",
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "iPhone 13",
+      "description": "Used iPhone in good condition",
+      "price": 700,
+      "type": "sell",
+      "image": "https://virtual2web.com/7602-superlarge_default/apple-iphone-13-mini-128gb-rosa.jpg",
+      "user": "@user1"
+    },
+    {
+      "id": 2,
+      "title": "Gaming Chair",
+      "description": "Comfortable gaming chair",
+      "price": 120,
+      "type": "sell",
+      "image": null,
+      "user": "@user2"
+    },
+    {
+      "id": 3,
+      "title": "PlayStation 5",
+      "description": "Looking for a PS5 with controller",
+      "price": 450,
+      "type": "buy",
+      "image": "https://m.media-amazon.com/images/I/51NbBH89m1L.jpg",
+      "user": "@user3"
+    },
+    {
+      "id": 4,
+      "title": "MacBook Air",
+      "description": "Laptop for study and work",
+      "price": 950,
+      "type": "sell",
+      "image": null,
+      "user": "@user4"
+    },
+    {
+      "id": 5,
+      "title": "Mountain Bike",
+      "description": "Bike in very good condition",
+      "price": 300,
+      "type": "buy",
+      "image": "https://mhw-bike.es/media/57/c1/72/1756888090/140200-Cube-Aim-Pro-slateblack-n-black-2026-Hardtail-Mountainbike-00.jpg",
+      "user": "@user5"
+    }
+  ],
+  "products2": [
+    {
+      "title": "ihpone",
+      "description": "descripción de prueba ",
+      "price": "736",
+      "type": "sell",
+      "image": "",
+      "userId": 1,
+      "updatedAt": "2026-05-17T19:52:30.352Z",
+      "id": 1
+    }
+  ]
+}
